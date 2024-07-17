@@ -50,7 +50,7 @@ state_select = Select(driver.find_element_by_id('State_cd2'))
 
 # print(state_select.options[10].text)
 
-state_index = 20
+state_index = 21
 
 state_select.options[state_index].click()
 
